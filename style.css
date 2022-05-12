@@ -1,0 +1,59 @@
+  body{
+    text-align: center;
+  }
+  
+  .heading
+  {
+    width: 100%;
+    margin: 0px;
+    box-shadow:5px 5px 5px grey;
+  }
+  .heading_div
+  {
+    background: white ; 
+    border-radius: 20px; 
+    color: black;
+    box-shadow:5px 5px 5px grey;
+    text-align: center;
+    float: center;
+  }
+  .heading_div2
+  {
+    font-size: 18px ;
+    text-align: center;
+    float: center;
+  }
+  .result_para_tag
+  {
+    box-shadow:5px 5px 5px grey;
+    font-size: 20px;
+  }
+ 
+  canvas{
+    margin-bottom: 70px;
+    margin-top: 25px;
+    border-radius: 10px;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-delay: 1s;
+    animation-name: example;
+  }
+
+  @keyframes example{
+    from{
+      box-shadow: 2px 2px 2px 10px aqua;
+    }
+
+    to{
+      box-shadow: 2px 2px 2px 10px red;
+    }
+  }
+
+  .copy_right_footer{
+    position: fixed;
+    bottom: 0;
+    background-color: rgba(0, 255, 255, 0.553);
+    color: black;
+    font-size: medium;
+    width: 100%;
+  }
